@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC', sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    height: 100%;
+    position: relative;
+}
+
+
+/*=============================
+    wrap-kv
+===============================*/
+
+#wrap-kv {
+    position: relative;
+    height: 813px;
+    min-width: 1300px;
+    background: url(../images/kv_bg.jpg) no-repeat top center;
+}
+
+#wrap-kv div.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/*=============================
+    other
+===============================*/
+
+#floatimg {
+    width: 67px;
+    height: 296px;
+    position: fixed;
+    right: 50px;
+    top: 150px;
+    z-index: 8;
+}
+
+#floatimg:hover {
+    cursor: pointer;
+}
+
+div.clearfix {
+    clear: both;
+}
+
+div.clearfix:after {
+    display: table;
+    content: "";
+    width: 0;
+    clear: both;
+}
+
+div.justify {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
+}
+
+.radius {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #000;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
