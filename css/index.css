@@ -70,6 +70,9 @@ div.justify {
     -ms-text-justify: inter-ideograph;
     -moz-text-align-last: justify;
     -webkit-text-align-last: justify;
+    text-justify: justify;
+    opacity: 0;
+    border-radius: auto;
 }
 
 .radius {
